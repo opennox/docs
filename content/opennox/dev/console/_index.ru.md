@@ -1,6 +1,6 @@
 +++
-title = "OpenNox console"
-menuTitle = "Console"
+title = "Консоль OpenNox"
+menuTitle = "Консоль"
 weight = 10
 +++
 

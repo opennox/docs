@@ -1,35 +1,36 @@
 +++
-title = "Migrate from original"
+title = "Миграция с оригинала"
 weight = 2
 +++
 
-This guide will help migrate existing [NoxScript 3](https://noxtools.github.io/noxscript/)
-maps to [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) in OpenNox.
+Это руководство поможет перенести существующие [NoxScript 3](https://noxtools.github.io/noxscript/)
+карты на [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) в OpenNox.
 
-In this guide we will refer to "NoxScript 3" as the original Nox script, while "NS3" as the new Go-based scripts for OpenNox.
+В этом руководстве мы будем называть оригинальные скрипты Nox как "NoxScript 3", в то время как "NS3" будет обозначать новые
+Go скипты для OpenNox.
 
-## Why?
+## Зачем?
 
-First logical question: *why bother*? OpenNox runs original NoxScript 3 just fine.
+Первый логичный вопрос: *зачем*? OpenNox хорошо работает с NoxScript 3 скриптами.
 
-A few reasons to migrate to OpenNox scripts:
-- NoxScript 3 is limited to what original Nox engine exposes. Which isn't a lot. There won't be *any* updates.
-- NS3 in OpenNox is a **drop-in replacement**. Same functions are supported.
-- We provide tooling to **migrate** 90% of your code **automatically**. Only minor tweaks are needed.
-- NS4 (and beyond) will have more and **more features** going forward, including modding support.
-- You *won't* need a separate script compiler. Scripts are run **directly from source**.
-- More comprehensive **type system**: proper arrays, dictionaries (`map`), structures, classes.
-- **Libraries** included: string manipulation, full UTF8 support, math, sorting, etc.
-- Better **performance**: all libraries are compiled into OpenNox and run natively.
-- Better **debugging**: if script crashes, there's a stack trace. Scripts can recover from it as well!
-- Go language used in scripts is used in OpenNox itself. Maybe one day you'll decide to **contribute**?
+Есть пара причин перейти на скрипты OpenNox:
+- NoxScript 3 ограничен ровно тем что оригинальный Nox движек открывает. Возможностей не много. И *никаких* обновлений не будет.
+- NS3 в OpenNox является **прямой заменой**. Абсолютно те же функции доступны в нем.
+- Мы предоставляем инструмены для **перевода** 90% кода скрипта **автоматически**. Только мелкие правки необходимы.
+- NS4 (и далее) будут иметь всё больше и **больше возможностей** в будущем, включая поддержку модов.
+- *Не нужен* отдельный компилятор скриптов. Скрипты запускаются **напрямую из кода**.
+- Более полная **система типов**: настоящие массивы, словари (`map`), стркутуры, классы.
+- Доступны **библиотеки**: работа со строками, полная поддержка UTF8, математика, сортировка, и т.д.
+- Лучшая **производительность**: все библиотеки скомпилированы в OpenNox и запускаются нативно.
+- Лучшая **отладка**: если скрипт "падает", выведется трасировка. Скрипты так же могут самостоятельно справиться с ошибкой!
+- Язык Go используемый в скриптах так же используется в самом OpenNox. Возможно однажды будет желание **присоединиться**?
 
-It wouldn't be fair to not list *downsides*:
-- It only works with OpenNox.
-- You'll need to learn a new scripting language.
-- Script may need to do more work when saving/loading.
+Было бы несправедливо не упоминуть про *недостатки*:
+- Скрипты работают только в OpenNox.
+- Нужно изучить новый язык для скриптов.
+- Скриптам возможно необходимо делать больше для правильного сохранения/загрузки.
 
-If you heard about EUD script compiler by Panic and maybe considered it, see [this guide]({{% relref "noxscript/eud/migrate" %}}).
+Если вы знакомы с EUD компилятором от Panic и возможно рассматривали его, см [это руководство]({{% relref "noxscript/eud/migrate" %}}).
 
 In general, we believe that OpenNox is the future of Nox modding, thus porting your map may give it an entirely new life!
 
