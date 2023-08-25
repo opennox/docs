@@ -1,6 +1,6 @@
 +++
 title = "Модификация"
-weight = 5
+weight = 6
 +++
 
 OpenNox provides a lot of tooling for modding the game. Some of it is still in development.

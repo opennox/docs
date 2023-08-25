@@ -45,7 +45,7 @@ There's initial work done for supporting [campaign in multiplayer]({{% relref "o
 
 OpenNox provides a headless dedicated server for Linux and Windows.
 
-OpenNox servers expose simple [HTTP API](server-api.md) for getting server information,
+OpenNox servers expose simple [HTTP API]({{% relref "opennox/host/api" %}}) for getting server information,
 which allows to easily integrate it with websites, Discord bots, etc.
 OpenNox uses this API to provide simple Web control panel for the server.
 
@@ -64,8 +64,8 @@ OpenNox additionally provides:
 OpenNox aims to greatly improve modding support. It is still mostly work-in-progress, but there are already a few improvements:
 
 - New [console commands]({{% relref "opennox/dev/console" %}}).
-- Support for safe [NoxScript]({{% relref "opennox/mod/ns" %}}) runtime.
-- Easier way to change [game balance](mod-balance.md) values.
-- Support for [changing or replacing spells](mod-spells.md).
-- Initial support for [loading custom sprites](mod-sprites.md).
-- Support for [custom translations](mod-translation.md).
+- Support for safe [NoxScript]({{% relref "opennox/mod/scripts/ns" %}}) runtime.
+- Easier way to change [game balance]({{% relref "opennox/mod/balance" %}}) values.
+- Support for [changing or replacing spells]({{% relref "opennox/mod/spells" %}}).
+- Initial support for [loading custom sprites]({{% relref "opennox/mod/sprites" %}}).
+- Support for [custom translations]({{% relref "opennox/mod/translation" %}}).

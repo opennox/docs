@@ -319,5 +319,5 @@ or
 Nox.ObjectType("RedApple"):Create(Nox.Players.host)
 ```
 
-For more information about LUA scripting, see [this page]({{% relref "opennox/mod/lua" %}}).
+For more information about LUA scripting, see [this page]({{% relref "opennox/mod/scripts/lua" %}}).
 

@@ -1,6 +1,6 @@
 +++
 title = "NoxScript"
-weight = 5
+weight = 10
 +++
 
 OpenNox implements a new more powerful version of [NoxScript runtime]({{% relref "noxscript" %}}).
