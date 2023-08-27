@@ -96,8 +96,7 @@ Dot import should automatically resolve all references to NS3 functions.
 
 There are some temporary limitations you should be aware of:
 - Timers will stop each time the map is reloaded. You'll need to restart them from the script.
-- All callbacks will reset. You'll need to set them again from the script.
-- Setting function names for triggers in the map editor does not consider Go scripts. Set triggers from the script instead.
+- All callbacks will reset when map is reloaded. You'll need to set them again from the script.
 
 These issues will be resolved eventually.
 
