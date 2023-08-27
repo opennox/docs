@@ -6,10 +6,6 @@ weight = 1
 
 ## Package information
 
-{{% notice warning %}}
-Appimage does not work on Ubuntu distribution since version 22, since it no longer ships *libfuse2*.
-{{% /notice %}}
-
 Appimage is a portable packaging format designed to simplify user interaction with software by removing the need to install it as a package or install its dependencies.
 
 32 bit Appimage packages are provided since v1.8.12-alpha9 (25 Aug 2023).
@@ -33,11 +29,12 @@ See [GoG](https://www.gog.com/game/nox) for purchase options.
 Original CD should work as well.
 {{% /notice %}}
 
-Most probably, your Linux distribution has all required packages installed already.
-In case if Appimage does not run, please ensure you have these packages installed:
-- libc:i386
+Most probably, you are using 64 bit distribution of Linux. To use OpenNox you have to enable i386 architecture and install these packages:
+- libc6:i386
 - libfuse2:i386
 - zlib1g:i386
+
+On 32 bit distributions you probably have everything installed already.
 
 ## Installation process (standard usage)
  
