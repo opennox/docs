@@ -34,6 +34,8 @@ Most probably, you are using 64 bit distribution of Linux. To use OpenNox you ha
 - libfuse2:i386
 - zlib1g:i386
 
+Also make sure you have 32 bit version of your graphics drivers installed.
+
 On 32 bit distributions you probably have everything installed already.
 
 ## Installation process (standard usage)
