@@ -1,8 +1,11 @@
 baseURL = 'http://example.org/'
 title = 'OpenNox documentation'
-theme = 'relearn'
 languageCode = "en"
 defaultContentLanguage = "en"
+
+[module]
+[[module.imports]]
+  path = 'github.com/McShelby/hugo-theme-relearn'
 
 [outputs]
     # add JSON to the home to support Lunr search; This is a mandatory setting
@@ -43,16 +46,19 @@ defaultContentLanguage = "en"
         title = "OpenNox documentation"
         weight = 1
         languageName = "English"
+        [Languages.en.params]
         landingPageName = "<i class='fas fa-home'></i> Home"
     [Languages.ko]
         title = "OpenNox documentation"
         weight = 2
         languageName = "Korean"
+        [Languages.ko.params]
         landingPageName = "<i class='fas fa-home'></i> 홈페이지"
     [Languages.ru]
         title = "Документация OpenNox"
         weight = 3
         languageName = "Русский"
+        [Languages.ru.params]
         landingPageName = "<i class='fas fa-home'></i> Главная"
 
 [[Languages.en.menu.shortcuts]]
