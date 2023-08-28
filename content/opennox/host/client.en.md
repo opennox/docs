@@ -1,8 +1,8 @@
-+++
-title = "Hosting using a client"
-menuTitle = "From the game"
-weight = 1
-+++
+---
+title: "Hosting using a client"
+menuTitle: "From the game"
+weight: 1
+---
 
 The simplest way to host a game is by using OpenNox game client.
 

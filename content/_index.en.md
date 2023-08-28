@@ -1,7 +1,7 @@
-+++
-archetype = "home"
-title = "OpenNox"
-+++
+---
+archetype: "home"
+title: "OpenNox"
+---
 
 An open-source implementation of Nox game engine.
 

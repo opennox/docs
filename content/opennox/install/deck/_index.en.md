@@ -1,8 +1,8 @@
-+++
-title = "Install on Steam Deck"
-menuTitle = "Steam Deck"
-weight = 3
-+++
+---
+title: "Install on Steam Deck"
+menuTitle: "Steam Deck"
+weight: 3
+---
 
 
 {{% notice note %}}

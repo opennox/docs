@@ -1,8 +1,8 @@
-+++
-title = "Replacing sprites"
-menuTitle = "Sprites"
-weight = 3
-+++
+---
+title: "Replacing sprites"
+menuTitle: "Sprites"
+weight: 3
+---
 
 The main build supports a way to replace sprites used by the game.
 

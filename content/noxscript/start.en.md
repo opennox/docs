@@ -1,7 +1,7 @@
-+++
-title = "Quickstart"
-weight = 1
-+++
+---
+title: "Quickstart"
+weight: 1
+---
 
 This guide will show how to create your first map script using OpenNox map script API in Go language.
 

@@ -1,8 +1,8 @@
-+++
-title = "Изменение игрового баланса"
-menuTitle = "Баланс"
-weight = 1
-+++
+---
+title: "Изменение игрового баланса"
+menuTitle: "Баланс"
+weight: 1
+---
 
 Vanilla Nox stores game balance values in an encoded `gamedata.bin` file.
 

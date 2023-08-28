@@ -1,7 +1,7 @@
-+++
-title = "Features"
-weight = 2
-+++
+---
+title: "Features"
+weight: 2
+---
 
 ## Vanilla features
 

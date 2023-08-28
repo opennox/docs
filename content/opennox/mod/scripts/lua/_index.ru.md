@@ -1,7 +1,7 @@
-+++
-title = "Скрипты LUA"
-weight = 20
-+++
+---
+title: "Скрипты LUA"
+weight: 20
+---
 
 OpenNox implements an experimental LUA map script runtime.
 

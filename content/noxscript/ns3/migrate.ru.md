@@ -1,7 +1,7 @@
-+++
-title = "Миграция с оригинала"
-weight = 2
-+++
+---
+title: "Миграция с оригинала"
+weight: 2
+---
 
 Это руководство поможет перенести существующие [NoxScript 3](https://noxtools.github.io/noxscript/)
 карты на [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) в OpenNox.

@@ -1,8 +1,8 @@
-+++
-title = "Server HTTP API"
-menuTitle = "HTTP API"
-weight = 5
-+++
+---
+title: "Server HTTP API"
+menuTitle: "HTTP API"
+weight: 5
+---
 
 ## Server info
 

@@ -1,8 +1,8 @@
-+++
-title = "Customizing translation"
-menuTitle = "Translation"
-weight = 4
-+++
+---
+title: "Customizing translation"
+menuTitle: "Translation"
+weight: 4
+---
 
 Most of the text used in Nox is stored in the CSF files which are encoded and are hard to modify.
 

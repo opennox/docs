@@ -1,7 +1,7 @@
-+++
-title = "Playing"
-weight = 4
-+++
+---
+title: "Playing"
+weight: 4
+---
 
 This section contains additional information about game features unique to OpenNox.
 

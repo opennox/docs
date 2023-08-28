@@ -1,7 +1,7 @@
-+++
-title = "Nox Quest"
-weight = 5
-+++
+---
+title: "Nox Quest"
+weight: 5
+---
 
 OpenNox provides more commands for Nox Quest game mode.
 

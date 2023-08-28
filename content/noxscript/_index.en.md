@@ -1,8 +1,8 @@
-+++
-title = "NoxScript"
-weight = 2
-alwaysopen = false
-+++
+---
+title: "NoxScript"
+weight: 2
+alwaysopen: false
+---
 
 This documentation covers NoxScript runtime implemented in OpenNox.
 

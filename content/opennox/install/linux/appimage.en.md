@@ -1,8 +1,8 @@
-+++
-title = "Appimage release"
-menuTitle = "Appimage"
-weight = 1
-+++
+---
+title: "Appimage release"
+menuTitle: "Appimage"
+weight: 1
+---
 
 ## Package information
 

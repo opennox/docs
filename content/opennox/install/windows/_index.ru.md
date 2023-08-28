@@ -1,8 +1,8 @@
-+++
-title = "Install on Windows"
-menuTitle = "Windows"
-weight = 2
-+++
+---
+title: "Install on Windows"
+menuTitle: "Windows"
+weight: 2
+---
 
 ## Installing
 

@@ -1,7 +1,7 @@
-+++
-title = "Panic's EUD"
-weight = 20
-+++
+---
+title: "Panic's EUD"
+weight: 20
+---
 
 ## History
 

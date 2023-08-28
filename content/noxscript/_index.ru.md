@@ -1,8 +1,8 @@
-+++
-title = "NoxScript"
-weight = 2
-alwaysopen = false
-+++
+---
+title: "NoxScript"
+weight: 2
+alwaysopen: false
+---
 
 Данная документация покрывает движек NoxScript реализованный в OpenNox.
 

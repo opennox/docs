@@ -1,8 +1,8 @@
-+++
-title = "Remote SSH console"
-menuTitle = "SSH / RCON"
-weight = 3
-+++
+---
+title: "Remote SSH console"
+menuTitle: "SSH / RCON"
+weight: 3
+---
 
 Vanilla Nox supported a telnet-based remote console (RCON) which allowed controlling Nox server remotely.
 

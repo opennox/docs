@@ -1,7 +1,7 @@
-+++
-title = "EUD от Panic'а"
-weight = 20
-+++
+---
+title: "EUD от Panic'а"
+weight: 20
+---
 
 ## History
 

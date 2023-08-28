@@ -1,7 +1,7 @@
-+++
-title = "Migrate from original"
-weight = 2
-+++
+---
+title: "Migrate from original"
+weight: 2
+---
 
 This guide will help migrate existing [NoxScript 3](https://noxtools.github.io/noxscript/)
 maps to [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) in OpenNox.

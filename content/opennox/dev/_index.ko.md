@@ -1,7 +1,7 @@
-+++
-title = "Development"
-weight = 10
-alwaysopen = false
-+++
+---
+title: "Development"
+weight: 10
+alwaysopen: false
+---
 
 Information about the OpenNox engine.

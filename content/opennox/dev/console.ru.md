@@ -1,8 +1,8 @@
-+++
-title = "Консоль OpenNox"
-menuTitle = "Консоль"
-weight = 10
-+++
+---
+title: "Консоль OpenNox"
+menuTitle: "Консоль"
+weight: 10
+---
 
 ## Enabling all commands
 

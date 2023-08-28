@@ -1,8 +1,8 @@
-+++
-title = "Hosting a dedicated server"
-menuTitle = "Dedicated"
-weight = 2
-+++
+---
+title: "Hosting a dedicated server"
+menuTitle: "Dedicated"
+weight: 2
+---
 
 OpenNox also ships with the `opennox-server` binary which can be used to run as a dedicated server.
 

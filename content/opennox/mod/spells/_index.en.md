@@ -1,8 +1,8 @@
-+++
-title = "Changing spells"
-menuTitle = "Spells"
-weight = 2
-+++
+---
+title: "Changing spells"
+menuTitle: "Spells"
+weight: 2
+---
 
 Vanilla Nox stores spell configs in three different places:
 

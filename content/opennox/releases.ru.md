@@ -1,8 +1,8 @@
-+++
-disableToc = false
-title = "Что нового"
-weight = 1
-+++
+---
+disableToc: false
+title: "Что нового"
+weight: 1
+---
 
 This page shows what's new in the latest OpenNox release.
 

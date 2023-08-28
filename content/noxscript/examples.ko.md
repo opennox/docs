@@ -1,7 +1,7 @@
-+++
-title = "Examples"
-weight = 2
-+++
+---
+title: "Examples"
+weight: 2
+---
 
 This page lists some examples of the scripts used in OpenNox.
 

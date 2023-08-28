@@ -1,7 +1,7 @@
-+++
-title = "Ручной каст заклинаний"
-weight = 10
-+++
+---
+title: "Ручной каст заклинаний"
+weight: 10
+---
 
 Surprisingly, vanilla Nox has a hidden feature that allows casting spells manually by pressing one of 9 phoneme/gesture
 keys in the right order to cast specific spells. It is similar to the way spell casting works in Magicka.

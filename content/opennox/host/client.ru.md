@@ -1,8 +1,8 @@
-+++
-title = "Хостинг через клиент"
-menuTitle = "Из игры"
-weight = 1
-+++
+---
+title: "Хостинг через клиент"
+menuTitle: "Из игры"
+weight: 1
+---
 
 The simplest way to host Nox game is via OpenNox game client.
 

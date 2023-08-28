@@ -1,7 +1,7 @@
-+++
-title = "Migrate from EUD"
-weight = 2
-+++
+---
+title: "Migrate from EUD"
+weight: 2
+---
 
 This guide will help migrate existing [Panic's EUD](https://gitlab.com/happysoft3/eud-maps-project)
 maps to [NS3]({{% relref "noxscript/ns3" %}}) and

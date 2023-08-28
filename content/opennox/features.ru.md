@@ -1,7 +1,7 @@
-+++
-title = "Возможности"
-weight = 2
-+++
+---
+title: "Возможности"
+weight: 2
+---
 
 ## Vanilla features
 

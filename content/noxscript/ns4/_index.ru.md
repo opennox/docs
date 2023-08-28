@@ -1,7 +1,7 @@
-+++
-title = "NoxScript 4"
-weight = 10
-+++
+---
+title: "NoxScript 4"
+weight: 10
+---
 
 ## Reference
 

@@ -1,8 +1,8 @@
-+++
-title = "Изменение заклинаний"
-menuTitle = "Заклинания"
-weight = 2
-+++
+---
+title: "Изменение заклинаний"
+menuTitle: "Заклинания"
+weight: 2
+---
 
 Vanilla Nox stores spell configs in three different places:
 

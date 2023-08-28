@@ -1,8 +1,8 @@
-+++
-title = "Hosting a dedicated server"
-menuTitle = "Dedicated server"
-weight = 2
-+++
+---
+title: "Hosting a dedicated server"
+menuTitle: "Dedicated server"
+weight: 2
+---
 
 {{% notice warning %}}
 There are quite a few bug reports about dedicated server freezing.

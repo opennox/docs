@@ -1,7 +1,7 @@
-+++
-title = "Installation"
-weight = 3
-+++
+---
+title: "Installation"
+weight: 3
+---
 
 {{% notice warning %}}
 OpenNox is not a standalone game. It requires a copy of original Nox installed!
