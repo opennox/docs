@@ -129,15 +129,18 @@ Then global variables and/or functions follow. Order of declarations doesn't mat
 
 Most notable syntax distinction: in Go, the type name is on the right side, instead of on the left as in NoxScript 3:
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+var x int
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 int x;
 ```
-
-NS3 (Go):
-```
-var x int
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 Note that `;` is no longer needed, and variable declaration must start with `var` (or `const`).
 
@@ -160,7 +163,17 @@ Function declarations are also different:
 - Arguments with the same types can be grouped.
 - Multiple returns are supported.
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+func foo(a int) {
+}
+
+func bar(x, y int, s string) int {
+}
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 void foo(int a)
 {
@@ -170,21 +183,24 @@ int bar(int x, int y, string s)
 {
 }
 ```
-
-NS3 (Go):
-```go
-func foo(a int) {
-}
-
-func bar(x, y int, s string) int {
-}
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 #### Control flow
 
 All control flow structures *require* the opening `{` to be on the same line, for example:
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+if (x) { foo() }
+
+if (y) {
+    bar()
+}
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 if (x) foo();
 
@@ -193,77 +209,92 @@ if (y)
     bar();
 }
 ```
-
-NS3 (Go):
-```go
-if (x) { foo() }
-
-if (y) {
-	bar()
-}
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 The `()` in the condition is also optional:
 
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
 ```go
 if x { foo() }
 
 if y {
-	bar()
+    bar()
 }
 ```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
+```c
+if (x) foo();
+
+if (y)
+{
+    bar();
+}
+```
+{{% /tab %}}
+{{< /tabs >}}
 
 Same rules for `{` apply for `else`:
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+if x {
+    foo()
+} else {
+    bar()
+}
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 if (x) foo()
 else bar()
 ```
-
-
-NS3 (Go):
-```go
-if x {
-	foo()
-} else {
-	bar()
-}
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 #### Loops
 
 Loops *must* not include `(` and have same rules in regard to `{`:
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+var i int
+for i = 0; i < 10; i++ {
+}
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 int i;
 for (i = 0; i < 10; i++)
 {
 }
 ```
+{{% /tab %}}
+{{< /tabs >}}
 
-NS3 (Go):
+Loop that use `while` *must* use `for` keyword:
+
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
 ```go
-var i int
-for i = 0; i < 10; i++ {
+for x {
 }
 ```
-
-Loop that use `while` should *must* use `for` keyword:
-
-NoxScript 3:
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 while (x)
 {
 }
 ```
-
-NS3 (Go):
-```go
-for x {
-}
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 ### New: Core types
 
@@ -321,19 +352,22 @@ s = string(b) // "Hello"
 
 NoxScript 3 requires a type for new variables to be set explicitly. NS3 allows automatic inference of variable type:
 
-NoxScript 3:
-```c
-int a = 10; // int
-int b = 0; // bool 
-int x = Object("Bob"); // object
-```
-
-NS3 (Go):
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
 ```go
 a := 10 // int
 b := false // bool
 x := ns.Object("Bob") // ObjectID
 ```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
+```c
+int a = 10; // int
+int b = 0; // bool 
+int x = Object("Bob"); // object
+```
+{{% /tab %}}
+{{< /tabs >}}
 
 The `:=` operator does two things: defines a new variable (similar to `var`) and infers a type for it.
 
@@ -358,7 +392,22 @@ Constants are "untyped" and infer the type automatically from a variable they as
 
 In NS3 a new type of loop is available: `for range`, which allows to loop over all values in an array.
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+var arr [3]int
+// writing: loop over indexes only
+for i := range arr {
+    arr[i] = i+1;
+}
+cnt := 0
+// reading: loop over values
+for _, v := range arr {
+    cnt += v
+}
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 int i;
 int arr[3];
@@ -372,26 +421,24 @@ for (i = 0; i < 3; i++) // reading
     cnt += arr[i];
 }
 ```
-
-NS3 (Go):
-```go
-var arr [3]int
-// writing: loop over indexes only
-for i := range arr {
-    arr[i] = i+1;
-}
-cnt := 0
-// reading: loop over values
-for _, v := range arr {
-    cnt += v
-}
-```
+{{% /tab %}}
+{{< /tabs >}}
 
 ### New: Dynamic arrays (slices)
 
 In NoxScript 3, only fixed arrays are supported. NS3 has support for Go slices, which are arrays with dynamic length:
 
-NoxScript 3:
+{{< tabs >}}
+{{% tab title="NS3 (Go)" %}}
+```go
+var arr []int
+for i := 0; i < 3; i++ {
+    arr = append(arr, i+1) // adds elements to the end
+}
+// len(arr) == 3
+```
+{{% /tab %}}
+{{% tab title="NoxScript 3 (C)" %}}
 ```c
 int i;
 int arr[3];
@@ -400,16 +447,8 @@ for (i = 0; i < 3; i++)
     arr[i] = i+1;
 }
 ```
-
-NS3 (Go):
-```go
-var arr []int
-for i := 0; i < 3; i++ {
-	arr = append(arr, i+1) // adds elements to the end
-}
-// len(arr) == 3
-```
-
+{{% /tab %}}
+{{< /tabs >}}
 
 ### New: Structures
 
