@@ -6,7 +6,7 @@ weight = 10
 
 ## Enabling all commands
 
-By default, Nox and OpenNox start with most commands disabled. This is done to prevent cheating in campaign.
+Just like in vanilla Nox, OpenNox starts with most console commands disabled. This is done to prevent cheating in the solo campaign.
 Most commands will not work in multiplayer, unless you are a server admin/host.
 
 To enable all commands, open the console (`F1` by default) and type:
@@ -15,11 +15,11 @@ To enable all commands, open the console (`F1` by default) and type:
 racoiaws
 ```
 
-## Remote console
+## Remote server administration
 
-OpenNox does not support original RCON protocol.
+OpenNox does not support original RCON protocol based on telnet.
 
-Instead, it implements remote console via a builtin SSH server.
+Instead, it implements remote console via built-in SSH server.
 
 ## List commands
 
@@ -37,29 +37,29 @@ image
 
 ### show
 
-This command contains various helpers for debugging.
+This command displays various information, including debug information.
 
 Available sub-commands:
-- `show bindings` - show console bindings (macros).
-- `show extents` - show names and sizes for all object on the screen.
-- `show ai` - show AI paths and print all AI decisions to console.
-- `show gui` - shows or hides graphical user interface.
+- `show bindings` - lists all console bindings (macros).
+- `show extents` - toggle displaying of names and sizes for all objects on the screen.
+- `show ai` - toggle displaying of AI paths and prints all AI decisions to console.
+- `show gui` - toggle graphical user interface.
 
 ### list
 
-This command list various in-game spells, items, monsters, maps and players.
+This command lists various in-game spells, items, monsters, maps and players.
 
-These commands print item IDs that can be the used with [spawn](#cheat-spawn) command.
+These commands prints item IDs that can be the used with [spawn](#cheat-spawn) command.
 
 Available sub-commands:
-- `list staffs` - list all staffs and wands.
-- `list armor` - list all armor.
-- `list weapons` - list all weapons.
-- `list food` - list all consumables.
-- `list monsters` - list all monsters and NPCs.
-- `list spells` - list all spells.
-- `list maps` - list all maps.
-- `list users` - list all players.
+- `list staffs` - lists all staves and wands.
+- `list armor` - lists all armor.
+- `list weapons` - lists all weapons.
+- `list food` - lists all consumables.
+- `list monsters` - lists all monsters and NPCs.
+- `list spells` - lists all spells.
+- `list maps` - lists all maps.
+- `list users` - lists all players.
 
 ### load
 
@@ -69,8 +69,8 @@ This command switches current game map to the one specified:
 load wiz01a
 ```
 
-In vanilla Nox, not all maps can usually be loaded. For example, it's impossible to load campaign maps in multiplayer.
-OpenNox allows removing those restrictions via [`set maps allow.all`](#set-maps).
+In vanilla Nox, not every map can be loaded like that. For example, it's impossible to load campaign maps in multiplayer.
+OpenNox allows bypassing those restrictions by using [`set maps allow.all`](#set-maps) command.
 
 ### set god
 
@@ -92,11 +92,11 @@ See [cheat god](#cheat-god) if you only need invulnerability and infinite mana.
 
 ### set quest
 
-These commands allow more controls for Nox Quest game mode. See [this page]({{% relref "opennox/play/quest" %}}) for details.
+These command allow more controls for Nox Quest game mode. See [this page]({{% relref "opennox/play/quest" %}}) for details.
 
 ### set maps
 
-These commands allow more controls for game map loading.
+These commands allow more control for game map loading.
 
 - `set maps allow.all` - disable game mode checks when loading the map; allows loading campaign in multiplayer, etc
 
@@ -154,7 +154,7 @@ cheat spells all
 
 ### cheat scrolls
 
-A cheat for getting all beat scrolls.
+A cheat for getting all beast scrolls.
 
 ```
 cheat scrolls
@@ -217,7 +217,7 @@ Without arguments, command will restore health to maximum:
 cheat health
 ```
 
-You can also specify desired health value:
+You can also specify the desired health value:
 
 ```
 cheat health 999
@@ -287,9 +287,9 @@ cheat summon.nolimit 0
 
 ### lua
 
-This commands runs given LUA code.
+This commands executes given Lua code.
 
-For example, to replicate `cheat spawn RedApple` with LUA:
+For example, to replicate `cheat spawn RedApple` with Lua:
 
 ```lua
 apple = Nox.ObjectType("RedApple")
@@ -319,5 +319,5 @@ or
 Nox.ObjectType("RedApple"):Create(Nox.Players.host)
 ```
 
-For more information about LUA scripting, see [this page]({{% relref "opennox/mod/scripts/lua" %}}).
+For more information about Lua scripting, see [this page]({{% relref "opennox/mod/scripts/lua" %}}).
 

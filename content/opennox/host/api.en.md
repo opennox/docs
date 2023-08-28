@@ -10,7 +10,7 @@ weight = 5
 GET /api/v0/game/info
 ```
 
-Or in terms of `curl`:
+Example request using `curl`:
 
 ```shell
 curl 'http://127.0.0.1:18580/api/v0/game/info'
@@ -56,7 +56,7 @@ X-Token: xyz
 estate
 ```
 
-Or in terms of `curl`:
+Example request using `curl`:
 
 ```shell
 curl -X POST -H 'X-Token: xyz' -d 'estate' 'http://127.0.0.1:18580/api/v0/game/map'
@@ -71,7 +71,7 @@ X-Token: xyz
 load estate
 ```
 
-Or in terms of `curl`:
+Example request using `curl`:
 
 ```shell
 curl -X POST -H 'X-Token: xyz' -d 'load estate' 'http://127.0.0.1:18580/api/v0/game/cmd'
@@ -86,13 +86,13 @@ X-Token: xyz
 ns4.CreateObject("RedApple", ns4.GetHost().Unit().Pos())
 ```
 
-Or in terms of `curl`:
+Example request using `curl`:
 
 ```shell
 curl -X POST -H 'X-Token: xyz' -d 'ns4.CreateObject("RedApple", ns4.GetHost().Unit().Pos())' 'http://127.0.0.1:18580/api/v0/game/eval'
 ```
 
-## Run LUA script
+## Run Lua script
 
 ```
 POST /api/v0/game/lua
@@ -103,7 +103,7 @@ apple = Nox.ObjectType("RedApple");
 apple:Create(p);
 ```
 
-Or in terms of `curl`:
+Example request using `curl`:
 
 ```shell
 curl -X POST -H 'X-Token: xyz' -d 'p = Nox.Players[1]; apple = Nox.ObjectType("RedApple"); apple:Create(p)' 'http://127.0.0.1:18580/api/v0/game/lua'

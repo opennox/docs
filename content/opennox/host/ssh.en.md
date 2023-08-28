@@ -4,9 +4,9 @@ menuTitle = "SSH / RCON"
 weight = 3
 +++
 
-Vanilla Nox supported a telnet-based remote console (RCON) which allowed to control Nox server remotely.
+Vanilla Nox supported a telnet-based remote console (RCON) which allowed controlling Nox server remotely.
 
-OpenNox completely drops telnet support in favor of SSH-based remote console.
+OpenNox has dropped telnet support in favor of SSH-based remote console.
 
 {{% notice info %}}
 OpenNox only _emulates_ SSH protocol. It **does not** allow accessing the host machine via SSH.

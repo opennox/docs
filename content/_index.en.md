@@ -3,7 +3,7 @@ archetype = "home"
 title = "OpenNox"
 +++
 
-An opensource implementation of Nox game engine.
+An open-source implementation of Nox game engine.
 
 [★ What's new in the latest release ★]({{% relref "opennox/releases" %}})
 
@@ -15,15 +15,15 @@ An opensource implementation of Nox game engine.
 
 ## Support
 
-To get support, feel free to open [issue report](https://github.com/noxworld-dev/opennox/issues) in our GitHub repository.
+To get support, feel free to open an [issue report](https://github.com/noxworld-dev/opennox/issues) in our GitHub repository.
 
-Alternatively, you can always find us on the [Discord](https://discord.gg/HgDUeXhAyW) and [Matrix](https://matrix.to/#/#opennox:nwca.xyz).
+Alternatively, you can always contact us on [Discord](https://discord.gg/HgDUeXhAyW) and [Matrix](https://matrix.to/#/#opennox:nwca.xyz).
 
-This project is developed by the community, consider supporting us on [OpenCollective](https://opencollective.com/) or [Patreon](https://www.patreon.com/opennox).
+This project is developed by the community. Please, consider supporting us on [OpenCollective](https://opencollective.com/) or [Patreon](https://www.patreon.com/opennox).
 
 ## Contributions
 
-Feel free to contribute to this documentation by just clicking the {{% button style="transparent" icon="pen" %}}{{% /button %}} button displayed on top right of each page.
+Feel free to contribute to this documentation by just clicking the {{% button style="transparent" icon="pen" %}}{{% /button %}} button located at the top-right of each page.
 
 For contributing to OpenNox project itself, see the [main repository](https://github.com/noxworld-dev/opennox).
 
@@ -32,7 +32,7 @@ For contributing to OpenNox project itself, see the [main repository](https://gi
 This project (OpenNox) is an unofficial community collaboration project for preservation, modding and compatibility purposes.
 This project has no direct affiliation with Electronic Arts Inc. and/or the "Nox" brand. "Nox" is an Electronic Arts Inc. brand. All Rights Reserved.
 
-No assets, texts, artwork or other media from the original game(s) is included in this project.
+No assets, texts, artwork or other media from the original game(s) are included in this project.
 We do not condone piracy in any way, shape or form and encourage users to legally own the original game.
 
 The video game "Nox" is copyright © 2000 Westwood Studios. All Rights Reserved.
