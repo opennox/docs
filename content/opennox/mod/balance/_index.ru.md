@@ -1,12 +1,12 @@
 ---
-title: "Изменение игрового баланса"
-menuTitle: "Баланс"
+title: "Настройка игрового баланса"
+menuTitle: "Игровой баланс"
 weight: 1
 ---
 
-Vanilla Nox stores game balance values in an encoded `gamedata.bin` file.
+Классический Nox хранит параметры игрового баланса в закодированном файле `gamedata.bin`.
 
-OpenNox additionally allows overriding values in that file with the ones written in a text-based `gamedata.yml` file.
+OpenNox позволяет переопределять значения указанные в этом файле теми, что записаны в текстовом файле `gamedata.yml`.
 
-To try it out, copy [gamedata.yml](./gamedata.yml) to Nox game directory (not OpenNox directory!).
-After this, you can edit it via any text editor (Notepad++ on Windows is advised).
+Для пробы скопируйте [gamedata.yml](./gamedata.yml) в папку с установкой Nox (не в папку OpenNox!).
+После этого, вы можете редактировать этот файл с помощью любого текстового редактора ([Notepad++](https://notepad-plus-plus.org/) рекомендуется для Windows пользователей).
