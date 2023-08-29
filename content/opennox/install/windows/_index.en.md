@@ -4,17 +4,17 @@ menuTitle: "Windows"
 weight: 2
 ---
 
-## Installing
+## Installation process
 
 {{% notice warning %}}
-OpenNox is not a standalone game. It requires a copy of **original Nox installed**!
+OpenNox is not a full game. It requires game content files of the original Nox installation!
 
-See [GoG](https://www.gog.com/game/nox) or [Origin](https://www.origin.com/irl/en-us/store/nox/nox) for purchase options.
+See [GoG](https://www.gog.com/game/nox) for purchase options.
 Original CD should work as well.
 {{% /notice %}}
 
 1. Install original Nox. Prefer locations outside of "Program Files".
-2. Download latest [OpenNox installer](https://github.com/noxworld-dev/opennox/releases/latest). Use `.exe` file for Windows.
+2. Download latest [OpenNox installer](https://github.com/noxworld-dev/opennox/releases/). Use `.exe` file for Windows.
 3. Install it to any directory (shouldn't be the same as Nox itself).
 
 ## Playing
@@ -61,7 +61,7 @@ game:
 
 Change the path manually to a folder where your copy of Nox is installed. Restart OpenNox.
 
-If it still doesn't work, please ping us on [OpenNox Discord](https://discord.gg/HgDUeXhAyW) in `#feedback` channel.
+If it still doesn't work, please contact us on [OpenNox Discord](https://discord.gg/HgDUeXhAyW) in `#feedback` channel.
 It will help if you share `opennox.log` located in `log` folder in OpenNox install directory.
 
 ### Can't connect to a server: Version mismatch
