@@ -15,17 +15,17 @@ OpenNox will work out-of-the-box on any recent [Windows]({{% relref "opennox/ins
 
 OpenNox also works natively on [Linux]({{% relref "opennox/install/linux" %}}), including [Steam Deck]({{% relref "opennox/install/deck" %}}).
 
-OpenNox doesn't provide Nox assets. You must own and install vanilla Nox in order to run it.
+OpenNox doesn't provide Nox assets. You must own a copy of the original game and have it installed in order to run it.
 OpenNox will attempt to find Nox installation automatically.
 
-OpenNox is able to connect to regular Nox servers, as well as Nox players will be able to connect to OpenNox servers.
+OpenNox is able to connect to vanilla Nox servers, as well as vanilla Nox clients are able to connect to OpenNox servers.
 This is only true for regular version of OpenNox. OpenNox HD will refuse to connect with non-HD (legacy) players.
 
 ## Graphics
 
 OpenNox can load vanilla Nox content and should work on any recent Windows and Linux versions with no graphical issues.
 
-Additionally, OpenNox provides an OpenNox HD version, that will run in resolution up to 4K.
+Additionally, OpenNox provides an HD version, which allows using display resolutions up to 4K.
 OpenNox HD will refuse connections from non-HD/legacy version and from vanilla Nox, because fairness considerations.
 
 OpenNox supports custom TTF and OTF fonts to replace vanilla raster fonts.
@@ -34,20 +34,19 @@ OpenNox supports custom TTF and OTF fonts to replace vanilla raster fonts.
 
 Vanilla Nox distinguishes between online and LAN multiplayer. It uses XWIS server and requires login/password for it.
 
-OpenNox joins both online and LAN games into a single list. It doesn't require XWIS password, while still able to join XWIS servers.
+OpenNox combines both online and LAN games into a single list. It doesn't require XWIS password, while still able to join XWIS servers.
 
-OpenNox will also attempt to automatically forward ports, when hosting a game online.
+OpenNox also attempts to automatically forward ports, when hosting a game online.
 This requires UPnP to be enabled on your router (which is enabled by default in most cases).
 
-There's initial work done for supporting [campaign in multiplayer]({{% relref "opennox/dev/console" %}}#load).
+There is an initial work done for supporting playing [solo campaign in multiplayer]({{% relref "opennox/dev/console" %}}#load).
 
 ## Server
 
-OpenNox provides a headless dedicated server for Linux and Windows.
+OpenNox provides a headless dedicated server both for Linux and Windows.
 
-OpenNox servers expose simple [HTTP API]({{% relref "opennox/host/api" %}}) for getting server information,
-which allows to easily integrate it with websites, Discord bots, etc.
-OpenNox uses this API to provide simple Web control panel for the server.
+OpenNox servers expose a simple [HTTP API]({{% relref "opennox/host/api" %}}) for getting server information,
+which allows easy integration with websites, Discord bots, etc. The same API provides a simple Web control panel for the server.
 
 ## Game
 
@@ -56,12 +55,12 @@ OpenNox improves a few aspects of the game to make it more convenient to players
 Apart from a simpler [online games list](#multiplayer), automatic port-forwarding and more [graphical options](#graphics),
 OpenNox additionally provides:
 
-- More controls for [Nox Quest]({{% relref "opennox/play/quest" %}}).
-- [Manual spell casting]({{% relref "opennox/play/manual-cast" %}}) similar to Magicka.
+- More control over [Nox Quest]({{% relref "opennox/play/quest" %}}).
+- [Manual spell casting]({{% relref "opennox/play/manual-cast" %}}) similar to [Magicka](https://en.wikipedia.org/wiki/Magicka).
 
 ## Modding
 
-OpenNox aims to greatly improve modding support. It is still mostly work-in-progress, but there are already a few improvements:
+OpenNox aims to greatly improve modding support. It is still a work-in-progress, but there are a few improvements already implemented:
 
 - New [console commands]({{% relref "opennox/dev/console" %}}).
 - Support for safe [NoxScript]({{% relref "opennox/mod/scripts/ns" %}}) runtime.
