@@ -1,72 +1,74 @@
 ---
-title: "Install on Windows"
+title: "Установка на Windows"
 menuTitle: "Windows"
 weight: 2
 ---
 
-## Installing
+## Установка
 
 {{% notice warning %}}
-OpenNox is not a standalone game. It requires a copy of **original Nox installed**!
+OpenNox не является отдельной игрой. Он требует установки **оригинала Nox**!
 
-See [GoG](https://www.gog.com/game/nox) or [Origin](https://www.origin.com/irl/en-us/store/nox/nox) for purchase options.
-Original CD should work as well.
+См. [GoG](https://www.gog.com/game/nox) или [Origin](https://www.origin.com/irl/en-us/store/nox/nox) для покупки.
+Оригинальный CD так же должен сработать.
 {{% /notice %}}
 
-1. Install original Nox. Prefer locations outside of "Program Files".
-2. Download latest [OpenNox installer](https://github.com/noxworld-dev/opennox/releases/latest). Use `.exe` file for Windows.
-3. Install it to any directory (shouldn't be the same as Nox itself).
+1. Установить оригинальный Nox. Предпочтительно, вне папки "Program Files".
+2. Скачать последний [установщик OpenNox](https://github.com/noxworld-dev/opennox/releases/latest). Использовать файл `.exe` для Windows.
+3. Установить его в любую директорию (отдельно от директории оригинального Nox).
 
-## Playing
+## Запуск
 
-### HD version
+### HD версия
 
-1. Go to OpenNox installation directory.
-2. Make a shortcut for `opennox-hd.exe`.
-3. Run it!
+1. Перейти в директору где установлен OpenNox.
+2. Сделать ярлык на `opennox-hd.exe`.
+3. Запустить его!
 
 {{% notice info %}}
-HD version will _not_ join public legacy servers!
+HD версия _не будет_ подключаться к публичным серверам старого Nox или OpenNox legacy!
 
-This is done for fairness reasons, since not everyone runs OpenNox in HD. You can still host your own server for your friends to join.
+Это сделано для обеспечения честности, т.к. не все игроки используют OpenNox HD и не видят так же далеко как в HD.
+Вы все ещё можете создать свой сервер для того чтобы играть с друзьями в HD версию.
 {{% /notice %}}
 
-### Legacy version
+### Legacy версия
 
-1. Go to OpenNox installation directory.
-2. Make a shortcut for `opennox.exe`.
-3. Run it!
+1. Перейти в директору где установлен OpenNox.
+2. Сделать ярлык на `opennox.exe`.
+3. Запустить его!
 
 {{% notice info %}}
-Legacy version will _not_ join HD servers.
+Legacy версия _не будет_ подключаться к публичным HD серверам!
 
-Make sure to run the same version as the server when playing online.
+Удостоверьтесь что использует версия совместимая с сервером при игре по сети (HD или совместимая).
 {{% /notice %}}
 
-## Troubleshooting
+## Устранение проблем
 
-### OpenNox doesn't start
+### OpenNox не запускается
 
-First, try running OpenNox with Administrator permissions. 
-If it works, then your Nox copy is likely installed in the protected folder like "Program Files" which causes issues. 
-Delete OpenNox folder, reinstall Nox to some other folder and install OpenNox again.
+Во первых, можно попробовать запустить OpenNox с правами администратора.
+Если это сработало, значит Nox установлен в защищенную директорию вроде "Program Files" что вызывает проблемы с доступом. 
+Удалите папку OpenNox, переустановите Nox в другую директорию и установите OpenNox снова.
 
-If it doesn't help, open `opennox.yml` in OpenNox installation directory in a text editor ([Notepad++](https://notepad-plus-plus.org/) is a good option).
-Find section similar to this:
+Если это не помогло, откройте `opennox.yml` (в директории куда установлен OpenNox) с помощью текстового редактора ([Notepad++](https://notepad-plus-plus.org/) это лучший вариант).
+Найдите секцию похожую на:
 
 ```yaml
 game:
   data: C:\Games\Nox
 ```
 
-Change the path manually to a folder where your copy of Nox is installed. Restart OpenNox.
+Измените путь в файле на папку куда установлена копия Nox. Перезапустите OpenNox.
 
-If it still doesn't work, please ping us on [OpenNox Discord](https://discord.gg/HgDUeXhAyW) in `#feedback` channel.
-It will help if you share `opennox.log` located in `log` folder in OpenNox install directory.
+Если это тоже не сработало, пожалуйста обратитесь за помощью в [OpenNox Discord](https://discord.gg/HgDUeXhAyW) в канал `#feedback`.
+Так же поможет если вы приложите файл `opennox.log` который находиться в капке `log` в директории OpenNox.
 
 ### Can't connect to a server: Version mismatch
 
-As was explained in the installation section, HD and legacy versions won't join servers of the opposite version. 
+Как было указано в документации по установке, HD и legacy версии не будут присоединяться к серверам друг друга. 
 
-Most online servers still run legacy version, so if you want to join them, you must run legacy version of OpenNox as well. 
-Make sure to try a correct version when joining a server.
+Большинство публичных серверов до сих пор используют legacy версию, по этому если вы хотите присоединиться к ним,
+вам необходимо использовать legacy версию OpenNox.
+Удостоверьтесь что используете правильную версию когда пробуете присоединиться к серверу.
