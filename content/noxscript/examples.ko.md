@@ -9,3 +9,4 @@ This page lists some examples of the scripts used in OpenNox.
 |------|---------|----------|
 | [con01a](https://github.com/noxworld-dev/noxscript/tree/main/examples/con01a) | NS3 | Conjurer campaign map `con01a` script |
 | [Ephreaym/Nox-AI-script](https://github.com/Ephreaym/Nox-AI-script) | NS4 | Arena and CTF bots by [@Ephreaym](https://github.com/Ephreaym) |
+| [noxworld-dev/map-mogushan](https://github.com/noxworld-dev/map-mogushan) | NS4 | Boss fight example map by [@dennwc](https://github.com/dennwc) and Garett |
