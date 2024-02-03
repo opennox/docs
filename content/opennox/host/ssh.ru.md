@@ -4,9 +4,9 @@ menuTitle: "SSH / RCON"
 weight: 3
 ---
 
-Vanilla Nox supported a telnet-based remote console (RCON) which allowed to control Nox server remotely.
+Vanilla Nox supported a telnet-based remote console (RCON) which allowed controlling Nox server remotely.
 
-OpenNox completely drops telnet support in favor of SSH-based remote console.
+OpenNox has dropped telnet support in favor of SSH-based remote console.
 
 {{% notice info %}}
 OpenNox only _emulates_ SSH protocol. It **does not** allow accessing the host machine via SSH.
@@ -20,9 +20,22 @@ opennox --rcon=:18522 --rcon-pass=my-secret-password
 
 This will allow SSH connections on port `18522` with a password `my-secret-password`:
 
+{{< tabs >}}
+{{% tab title="Linux" %}}
 ```shell
 ssh -p 18522 127.0.0.1
 ```
+{{% /tab %}}
+{{% tab title="Windows" %}}
+See [this tutorial](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh)
+
+```shell
+ssh -p 18522 127.0.0.1
+```
+
+Or install [PuTTY](https://putty.org/) and connect to `127.0.0.1:18522` with any username and password `my-secret-password`.
+{{% /tab %}}
+{{< /tabs >}}
 
 ```
 
@@ -35,7 +48,7 @@ ssh -p 18522 127.0.0.1
 |  888888/| 8888888/|  8888888| 88  | 88| 88 \  88|  888888/| 88  \ 88
  \______/ | 88____/  \_______/|__/  |__/|__/  \__/ \______/ |__/  |__/
           | 88
-          | 88        Version: v1.8.x (xxxxxxxxx)
+          | 88        Version: v1.9.x (xxxxxxxxx)
           |__/
 
 user@opennox:~$
