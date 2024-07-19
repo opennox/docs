@@ -29,7 +29,7 @@ func init() {
 ```
 module <mapname>
 
-go 1.20
+go 1.22
 ```
 
 For example, original map:
@@ -63,7 +63,7 @@ In `go.mod`:
 ```
 module example
 
-go 1.20
+go 1.22
 ```
 
 Done! Now start the map in OpenNox, open game console, and you should see `hello!` message there.
