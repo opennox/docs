@@ -19,7 +19,7 @@ racoiaws
 
 OpenNox does not support original RCON protocol.
 
-Instead, it implements remote console via a builtin SSH server.
+Instead, it implements remote console via a builtin [SSH server]({{% relref "opennox/host/ssh" %}}).
 
 ## List commands
 
