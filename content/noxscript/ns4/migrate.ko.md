@@ -10,7 +10,7 @@ It also supports a few unique features which are not available in NS3.
 
 ### Objects
 
-The `ns3.ObjectID` is replaced with [`ns4.Obj`](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v4#Obj) type.
+The `ns3.ObjectID` is replaced with [`ns4.Obj`](https://pkg.go.dev/github.com/opennox/noxscript/ns/v4#Obj) type.
 The main difference is that `ns4.Obj` is opaque and can no longer be used or stored as an integer.
 
 It is possible to convert `ns4.Obj` to/from `ns3.ObjectID` using the following code:

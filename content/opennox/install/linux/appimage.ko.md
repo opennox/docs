@@ -40,13 +40,13 @@ On 32 bit distributions you probably have everything installed already.
 
 ## Installation process (standard usage)
  
-1. Download the Appimage file from the [Opennox releases](https://github.com/noxworld-dev/opennox/releases) page. Put it anywhere you think is appropriate and *mark it as executable*.
+1. Download the Appimage file from the [Opennox releases](https://github.com/opennox/opennox/releases) page. Put it anywhere you think is appropriate and *mark it as executable*.
 2. Copy Nox content files into the `$HOME/.local/share/opennox` folder. Alternatively, you can install Nox into this folder.
 3. (*Optional*) If you are migrating from binary release, please put `opennox.yml` into `$HOME/.config/opennox` folder.
 
 ## Installation process (portable)
 
-1. Download the Appimage file from the [Opennox releases](https://github.com/noxworld-dev/opennox/releases) page. Put it anywhere you think is appropriate and *mark it as executable*.
+1. Download the Appimage file from the [Opennox releases](https://github.com/opennox/opennox/releases) page. Put it anywhere you think is appropriate and *mark it as executable*.
 2. Create portable home folder for the Appimage by running it with parameter **--appimage-portable-home** or by creating a folder with the same name as the Appimage and ".home" appended to the end. If Appimage file is `opennox-bundle-i386.AppImage`, then portable home folder must be named `opennox-bundle-i386.AppImage.home`.
 3. Copy Nox content files into the `.local/share/opennox` folder *inside the portable home folder* you had created in step 2.
 4. (*Optional*) If you are migrating from binary release, please put opennox.yml into the `.config/opennox` folder *inside the portable home folder* you had created in step 2.

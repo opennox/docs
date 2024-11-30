@@ -14,7 +14,7 @@ OpenNox не является отдельной игрой. Он требует
 {{% /notice %}}
 
 1. Установить оригинальный Nox. Предпочтительно, вне папки "Program Files".
-2. Скачать последний [установщик OpenNox](https://github.com/noxworld-dev/opennox/releases/latest). Использовать файл `.exe` для Windows.
+2. Скачать последний [установщик OpenNox](https://github.com/opennox/opennox/releases/latest). Использовать файл `.exe` для Windows.
 3. Установить его в любую директорию (отдельно от директории оригинального Nox).
 
 ## Запуск

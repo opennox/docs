@@ -5,7 +5,7 @@ weight: 2
 
 This guide will help migrate existing [Panic's EUD](https://gitlab.com/happysoft3/eud-maps-project)
 maps to [NS3]({{% relref "noxscript/ns3" %}}) and
-[EUD](https://pkg.go.dev/github.com/noxworld-dev/noxscript/eud/v171) layer in OpenNox.
+[EUD](https://pkg.go.dev/github.com/opennox/noxscript/eud/v171) layer in OpenNox.
 
 First, it's important to understand that "memhacks" and direct memory access is **technically not possible** in OpenNox.
 
@@ -38,7 +38,7 @@ In general, we believe that OpenNox is the future of Nox modding, thus porting y
 
 ## How?
 
-At this point, we are still working on improving the [EUD](https://pkg.go.dev/github.com/noxworld-dev/noxscript/eud/v171)
+At this point, we are still working on improving the [EUD](https://pkg.go.dev/github.com/opennox/noxscript/eud/v171)
 compatibility layer, so quite a few functions might still be unavailable. Please talk to us for more details.
 
 In general the conversion process is very similar to the one for [converting NS3 source manually]({{% relref "noxscript/ns3/migrate" %}}#converting-the-source).
@@ -46,7 +46,7 @@ Same changes must be done to the source to align the syntax. We are working on a
 
 You need to be aware that all functions using `GetMemory` and `SetMemory` must be **rewritten** in any case.
 The first thing to do is to check if functions you are using are already available in Panic's [EUD library](https://gitlab.com/happysoft3/eud-maps-project/-/tree/master/eud_project/libs).
-If so, updating your EUD script to using these function will help you convert to our [EUD](https://pkg.go.dev/github.com/noxworld-dev/noxscript/eud/v171)
+If so, updating your EUD script to using these function will help you convert to our [EUD](https://pkg.go.dev/github.com/opennox/noxscript/eud/v171)
 library later as well.
 
 We aim to provide a good migration path for well-known EUD libraries, so if you copied code from another EUD project,

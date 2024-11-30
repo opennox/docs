@@ -19,5 +19,5 @@ alwaysopen: false
 Некоторые из вопросов могут быть уже покрыты в [Q&A](./docs/questions-and-answers.md).
 Так же доступны [примеры]({{% relref "noxscript/examples" %}}).
 
-Если вопросы не нашли ответа, можно задать их [здесь](https://github.com/noxworld-dev/noxscript/discussions/new?category=q-a)
+Если вопросы не нашли ответа, можно задать их [здесь](https://github.com/opennox/noxscript/discussions/new?category=q-a)
 или в нашем [Discord](https://discord.gg/HgDUeXhAyW).

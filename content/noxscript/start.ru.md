@@ -126,7 +126,7 @@ package example
 import (
     "fmt"
     
-    "github.com/noxworld-dev/noxscript/ns/v4"
+    "github.com/opennox/noxscript/ns/v4"
 )
 
 func OnFrame() {
@@ -149,8 +149,8 @@ package example
 import (
     "fmt"
     
-    ns3 "github.com/noxworld-dev/noxscript/ns/v3"
-    ns4 "github.com/noxworld-dev/noxscript/ns/v4"
+    ns3 "github.com/opennox/noxscript/ns/v3"
+    ns4 "github.com/opennox/noxscript/ns/v4"
 )
 
 func OnFrame() {
@@ -167,8 +167,8 @@ package example
 import (
     "fmt"
     
-    . "github.com/noxworld-dev/noxscript/ns/v3"
-    ns4 "github.com/noxworld-dev/noxscript/ns/v4"
+    . "github.com/opennox/noxscript/ns/v3"
+    ns4 "github.com/opennox/noxscript/ns/v4"
 )
 
 func OnFrame() {
@@ -202,14 +202,14 @@ func OnFrame() {
 Самый простой способ обновить это открыть файл `go.mod` в папке карты и найти строку с движком который нужно обновить:
 ```
 require (
-    github.com/noxworld-dev/noxscript/ns/v4 v4.3.0
+    github.com/opennox/noxscript/ns/v4 v4.3.0
     // ... other lines
 )
 ```
 
 Просто обновите версию в нем, и запустите `go mod tidy`.
-Полный список версий доступен при нажатии на версию в [документации пакета скриптов](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v4?tab=versions)
-а так же на [GitHub](https://github.com/noxworld-dev/noxscript/tags).
+Полный список версий доступен при нажатии на версию в [документации пакета скриптов](https://pkg.go.dev/github.com/opennox/noxscript/ns/v4?tab=versions)
+а так же на [GitHub](https://github.com/opennox/noxscript/tags).
 
 ## Пакеты
 
@@ -234,5 +234,5 @@ require (
 Некоторые из вопросов могут быть уже покрыты в [Q&A](./questions-and-answers.md).
 Так же доступны [примеры]({{% relref "noxscript/examples" %}}).
 
-Если вопросы не нашли ответа, можно задать их [здесь](https://github.com/noxworld-dev/noxscript/discussions/new?category=q-a)
+Если вопросы не нашли ответа, можно задать их [здесь](https://github.com/opennox/noxscript/discussions/new?category=q-a)
 или в нашем [Discord](https://discord.gg/HgDUeXhAyW).

@@ -5,7 +5,7 @@ weight: 11
 
 ## Reference
 
-Here you can find a full list of functions provided by [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) runtime.
+Here you can find a full list of functions provided by [NS3](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3) runtime.
 
 ## History
 

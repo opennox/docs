@@ -14,7 +14,7 @@ Original CD should work as well.
 {{% /notice %}}
 
 1. Install original Nox. Prefer locations outside of "Program Files".
-2. Download latest [OpenNox installer](https://github.com/noxworld-dev/opennox/releases/latest). Use `.exe` file for Windows.
+2. Download latest [OpenNox installer](https://github.com/opennox/opennox/releases/latest). Use `.exe` file for Windows.
 3. Install it to any directory (shouldn't be the same as Nox itself).
 
 ## Playing

@@ -4,7 +4,7 @@ weight: 2
 ---
 
 Это руководство поможет перенести существующие [NoxScript 3](https://noxtools.github.io/noxscript/)
-карты на [NS3](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3) в OpenNox.
+карты на [NS3](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3) в OpenNox.
 
 В этом руководстве мы будем называть оригинальные скрипты Nox как "NoxScript 3", в то время как "NS3" будет обозначать новые
 Go скипты для OpenNox.
@@ -43,7 +43,7 @@ There are two path currently: converting the compiled script from the map or con
 You'll need a recent `noxtools` installed (assuming you have [Go 1.20+](https://go.dev/dl/) installed):
 
 ```
-go install github.com/noxworld-dev/opennox-lib/cmd/noxtools@latest
+go install github.com/opennox/libs/cmd/noxtools@latest
 ```
 
 From the map directory:
@@ -84,7 +84,7 @@ After this, add the following header to your file:
 package example
 
 import (    
-    . "github.com/noxworld-dev/noxscript/ns/v3"
+    . "github.com/opennox/noxscript/ns/v3"
 )
 ```
 
@@ -303,9 +303,9 @@ In original NoxScript 3, there were only a few types available: `int`, `float`, 
 
 In NS3 the list is much longer: `bool`, `int`, `uint`, `float32` (analog of `float`), `string`, `any`, etc.
 The `object` type is replaced with more specific types from NS3 package:
-[`ObjectID`](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3#ObjectID),
-[`ObjectGroupID`](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3#ObjectGroupID),
-[`WaypointID`](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3#WaypointID), etc.
+[`ObjectID`](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3#ObjectID),
+[`ObjectGroupID`](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3#ObjectGroupID),
+[`WaypointID`](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3#WaypointID), etc.
 
 An important distinction is that Go doesn't allow implicit type conversion.
 For example, in NoxScript it was okay to have an `int` variable and put an `object` there.
@@ -314,7 +314,7 @@ In NS3, this is requires an explicit type conversion: `int(x)`. But, of course, 
 Another distinction of NS3 is the support of direct conversions between `int` and `float`.
 It is done the same way: `int(x)` or `float32(x)`.
 
-Converting between `int` and `string` is supported via [`IntToString`](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v3#IntToString),
+Converting between `int` and `string` is supported via [`IntToString`](https://pkg.go.dev/github.com/opennox/noxscript/ns/v3#IntToString),
 but it's better to use Go's standard library instead: [`strconv.Itoa`](https://pkg.go.dev/strconv#Itoa).
 
 It also supports conversion from `string` to `int` via Go's standard library: [`strconv.Atoi`](https://pkg.go.dev/strconv#Atoi).

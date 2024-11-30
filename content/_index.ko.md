@@ -15,7 +15,7 @@ An opensource implementation of Nox game engine.
 
 ## Support
 
-To get support, feel free to open [issue report](https://github.com/noxworld-dev/opennox/issues) in our GitHub repository.
+To get support, feel free to open [issue report](https://github.com/opennox/opennox/issues) in our GitHub repository.
 
 Alternatively, you can always find us on the [Discord](https://discord.gg/HgDUeXhAyW) and [Matrix](https://matrix.to/#/#opennox:nwca.xyz).
 
@@ -25,7 +25,7 @@ This project is developed by the community, consider supporting us on [OpenColle
 
 Feel free to contribute to this documentation by just clicking the {{% button style="transparent" icon="pen" %}}{{% /button %}} button displayed on top right of each page.
 
-For contributing to OpenNox project itself, see the [main repository](https://github.com/noxworld-dev/opennox).
+For contributing to OpenNox project itself, see the [main repository](https://github.com/opennox/opennox).
 
 ## License
 

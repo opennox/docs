@@ -26,13 +26,13 @@ Make sure you have 32 bit version of your graphics drivers installed to provide 
 
 ## Installation process (portable)
 
-1. Download the tag.gz file from the [Opennox releases](https://github.com/noxworld-dev/opennox/releases) page.
+1. Download the tag.gz file from the [Opennox releases](https://github.com/opennox/opennox/releases) page.
 2. Unpack tar.gz archive contents into Nox installation folder.
 3. Mark files `opennox`, `opennox-hd` and `opennox-server` as executable.
 
 ## Installation process (non-portable)
 
-1. Download the tag.gz file from the [Opennox releases](https://github.com/noxworld-dev/opennox/releases) page.
+1. Download the tag.gz file from the [Opennox releases](https://github.com/opennox/opennox/releases) page.
 2. Unpack tar.gz archive contents into folder of your choice.
 3. Mark files `opennox`, `opennox-hd` and `opennox-server` as executable.
 4. Copy Nox content files into your `$HOME/Nox` folder. Alternatively, you can install Nox into this folder.

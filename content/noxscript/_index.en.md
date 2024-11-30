@@ -19,5 +19,5 @@ For a quick guide on using NoxScript, see [quickstart]({{% relref "noxscript/sta
 Some of your questions may be answered already in [Q&A](./docs/questions-and-answers.md).
 There are [examples]({{% relref "noxscript/examples" %}}) available as well.
 
-If your question is not covered, please send a question [here](https://github.com/noxworld-dev/noxscript/discussions/new?category=q-a)
+If your question is not covered, please send a question [here](https://github.com/opennox/noxscript/discussions/new?category=q-a)
 or in our [Discord](https://discord.gg/HgDUeXhAyW).

@@ -1,4 +1,4 @@
-module github.com/noxworld-dev/opennox-docs
+module github.com/opennox/opennox-docs
 
 go 1.19
 

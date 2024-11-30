@@ -7,7 +7,7 @@ weight: 2
 
 All vanilla features are supported. You should be able to complete the campaign and play online with OpenNox.
 
-If something doesn't work, please [file an issue](https://github.com/noxworld-dev/opennox/issues/new/choose).
+If something doesn't work, please [file an issue](https://github.com/opennox/opennox/issues/new/choose).
 
 ## Compatibility
 

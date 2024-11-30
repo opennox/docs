@@ -207,7 +207,7 @@ This page shows what's new in the latest OpenNox release.
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} High-resolution support (up to 4K)! You'll need to run `opennox-hd.exe` for it.
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} A lot faster OpenGL-based rendering (partially offloaded to GPU).
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Add `cheat charm.all` to charm any creature (including humanoids).
-- {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Automated end-to-end testing mode, see [opennox-e2e](https://github.com/noxworld-dev/opennox-e2e) for details.
+- {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Automated end-to-end testing mode, see [opennox-e2e](https://github.com/opennox/opennox-e2e) for details.
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Simple HTTP-based Server API for controlling game servers.
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Allow disabling image smoothing in the video options.
 - {{% badge style="info" icon="plus-circle" title=" " %}}New{{% /badge %}} Allow enabling image stretching in the video options.

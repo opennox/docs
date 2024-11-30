@@ -53,15 +53,15 @@ languages:
             shortcuts:
                 - name: "<i class='fab fa-fw fa-github'></i> OpenNox"
                   identifier: "eng"
-                  url: "https://github.com/noxworld-dev/opennox"
+                  url: "https://github.com/opennox/opennox"
                   weight: 10
                 - name: "<i class='fab fa-fw fa-github'></i> NoxScript"
                   identifier: "ns"
-                  url: "https://github.com/noxworld-dev/noxscript"
+                  url: "https://github.com/opennox/noxscript"
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> Documentation"
                   identifier: "ds"
-                  url: "https://github.com/noxworld-dev/opennox-docs"
+                  url: "https://github.com/opennox/opennox-docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -83,15 +83,15 @@ languages:
             shortcuts:
                 - name: "<i class='fab fa-fw fa-github'></i> OpenNox"
                   identifier: "eng"
-                  url: "https://github.com/noxworld-dev/opennox"
+                  url: "https://github.com/opennox/opennox"
                   weight: 10
                 - name: "<i class='fab fa-fw fa-github'></i> NoxScript"
                   identifier: "ns"
-                  url: "https://github.com/noxworld-dev/noxscript"
+                  url: "https://github.com/opennox/noxscript"
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> 설명서"
                   identifier: "ds"
-                  url: "https://github.com/noxworld-dev/opennox-docs"
+                  url: "https://github.com/opennox/opennox-docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -107,15 +107,15 @@ languages:
             shortcuts:
                 - name: "<i class='fab fa-fw fa-github'></i> OpenNox"
                   identifier: "eng"
-                  url: "https://github.com/noxworld-dev/opennox"
+                  url: "https://github.com/opennox/opennox"
                   weight: 10
                 - name: "<i class='fab fa-fw fa-github'></i> NoxScript"
                   identifier: "ns"
-                  url: "https://github.com/noxworld-dev/noxscript"
+                  url: "https://github.com/opennox/noxscript"
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> Документация"
                   identifier: "ds"
-                  url: "https://github.com/noxworld-dev/opennox-docs"
+                  url: "https://github.com/opennox/opennox-docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -125,7 +125,7 @@ languages:
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
 params:
-    editURL: "https://github.com/noxworld-dev/opennox-docs/edit/main/content/"
+    editURL: "https://github.com/opennox/opennox-docs/edit/main/content/"
     description: "Documentation for OpenNox engine"
     author: "OpenNox authors"
     showVisitedLinks: true

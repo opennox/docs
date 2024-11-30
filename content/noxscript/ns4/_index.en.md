@@ -5,7 +5,7 @@ weight: 10
 
 ## Reference
 
-Here you can find a full list of functions provided by [NS4](https://pkg.go.dev/github.com/noxworld-dev/noxscript/ns/v4) runtime.
+Here you can find a full list of functions provided by [NS4](https://pkg.go.dev/github.com/opennox/noxscript/ns/v4) runtime.
 
 ## NS4 runtime
 
