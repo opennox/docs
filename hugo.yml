@@ -61,7 +61,7 @@ languages:
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> Documentation"
                   identifier: "ds"
-                  url: "https://github.com/opennox/opennox-docs"
+                  url: "https://github.com/opennox/docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -91,7 +91,7 @@ languages:
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> 설명서"
                   identifier: "ds"
-                  url: "https://github.com/opennox/opennox-docs"
+                  url: "https://github.com/opennox/docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -115,7 +115,7 @@ languages:
                   weight: 11
                 - name: "<i class='fab fa-fw fa-github'></i> Документация"
                   identifier: "ds"
-                  url: "https://github.com/opennox/opennox-docs"
+                  url: "https://github.com/opennox/docs"
                   weight: 12
                 - name: "<i class='fas fa-fw fa-patreon'></i> Patreon"
                   identifier: "patreon"
@@ -125,7 +125,7 @@ languages:
 # settings specific to this theme's features; choose to your likings and
 # consult this documentation for explaination
 params:
-    editURL: "https://github.com/opennox/opennox-docs/edit/main/content/"
+    editURL: "https://github.com/opennox/docs/edit/main/content/"
     description: "Documentation for OpenNox engine"
     author: "OpenNox authors"
     showVisitedLinks: true
